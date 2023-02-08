@@ -23,7 +23,7 @@ function calcularTotal(lista) {
 }
 
 do {
-  nombreProducto = prompt("Ingrese el nombre del producto: (escriba salir para terminar el programa");
+  nombreProducto = prompt("Ingrese el nombre del producto: (escriba salir para terminar el programa)");
   // Por comodidad hago un chequeo previo para no agregar "salir" al array antes de ejecutar el while
   if (nombreProducto.toLowerCase() != "salir") {
     precioProducto = parseInt(prompt("Ingrese el precio del producto:"));
